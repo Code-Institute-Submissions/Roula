@@ -48,6 +48,7 @@ body {
 /*---- Heading Container ---*/
 .heading-container {
     color: #ffffff;
+    
 }
 
 .heading-container p {
@@ -64,6 +65,10 @@ body {
 }
 
 .card-columns h5 {
+    color: #14213D;
+}
+
+.card .card-color{
     color: #14213D;
 }
 
