@@ -68,6 +68,7 @@ body {
 
 .card-columns h5 {
     color: #14213D;
+    font-weight: bold;
 }
 
 .blockquote-footer {
