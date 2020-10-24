@@ -53,6 +53,7 @@ body {
 
 .heading-image {
     padding-bottom: 10px;
+
 }
 
 /*-------- Card elements -----*/
@@ -60,7 +61,6 @@ body {
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    
 }
 
 .card-columns p {
