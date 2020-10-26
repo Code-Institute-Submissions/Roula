@@ -15,6 +15,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
+    
    
 }
 
@@ -22,6 +23,9 @@ body {
     
     font-family: 'Poppins', sans-serif;
        
+}
+.navbar .navbar-brand:hover {
+    color: #FCA311;
 }
 
 .navbar-nav li {
@@ -34,6 +38,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: #F1F1F1;
     padding-top: .8rem;
+    
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
@@ -58,6 +63,7 @@ body {
 
 /*-------- Card elements -----*/
 .card-columns {
+    padding-top: 25px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
