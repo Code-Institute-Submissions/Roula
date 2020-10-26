@@ -62,8 +62,9 @@ body {
 }
 /*-------Card heading-------*/
 .heading-card {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .heading-card h5 {
@@ -72,12 +73,16 @@ body {
     font-size: 25px;
 }
 
+.heading-card p {
+    font-size: 18px;
+}
+
 /*-------- Card cloumn elements -----*/
 .card-columns {
     padding-top: 25px;
     padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .card-columns p {
@@ -101,6 +106,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    padding-bottom: 12px;
 }
 
 .social-links {
