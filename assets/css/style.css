@@ -70,7 +70,7 @@ body {
 .heading-card h5 {
     color: #14213D;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .heading-card p {
@@ -80,9 +80,10 @@ body {
 /*-------- Card cloumn elements -----*/
 .card-columns {
     padding-top: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     padding-left: 35px;
     padding-right: 35px;
+    margin: 0;
 }
 
 .card-columns p {
@@ -104,7 +105,7 @@ body {
 
 footer {
     color: #fafafa;
-    min-height: 120px;
+    min-height: 100px;
     margin: 0;
     padding-bottom: 12px;
 }
@@ -134,5 +135,5 @@ footer {
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 10px;
 }
