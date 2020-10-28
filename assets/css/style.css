@@ -12,6 +12,10 @@ body {
 .bg-color-name-title{
     background-color: #fafafa;
 }
+
+.bg-color-coin-header {
+    background-color: #FCA311;
+}
 /*---- NavBar ---*/
 
 .navbar {
@@ -97,6 +101,21 @@ body {
     padding-top: 50px;
 }
 
+.jumbotron2 .bg-color{
+    color: #FCA311;
+}
+
+.coin-header {
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 75px;
+    margin: 70px 0;
+    font-size: 50px;
+    color:#14213D;
+}
+
+.coin--header h1 {
+    font-weight: bold;
+}
 /*-------Card heading-------*/
 
 .heading-card {
