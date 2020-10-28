@@ -8,7 +8,10 @@ body {
    /* color: #FCA311; */
     background-color:#14213D;
 }
-
+/*---- Colors ---*/
+.bg-color-name-title{
+    background-color: #fafafa;
+}
 /*---- NavBar ---*/
 
 .navbar {
@@ -63,15 +66,35 @@ body {
 
 .container-heading h1 {
     margin: 30px 0;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: bold;
     color:#14213D;
 }
 
 .container-heading p {
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 30px;
     color: #FCA311;
+}
+
+/*-------Coin picture-------*/
+
+.logo{
+   background: url("../images/Rcoin.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 360px; 
+}
+/*-------Coin Heading-------*/
+#coin-heading{
+    margin: 0;
+    min-height: 360px;
+    height: 50vh;
+}
+
+#Coin-heading .container-heading {
+    padding-top: 50px;
 }
 
 /*-------Card heading-------*/
@@ -152,4 +175,22 @@ footer {
 
 #footer-details {
     padding: 10px;
+}
+
+
+/* ------------Media Queries----------------  */
+
+@media(min-width: 992px) {
+    .container-heading h1 {
+    margin: 15px 0;
+    font-size: 75px;
+    font-weight: bold;
+    color:#14213D;
+}
+
+.container-heading p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #FCA311;
+}
 }
