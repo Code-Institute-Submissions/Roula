@@ -16,6 +16,14 @@ body {
 .bg-color-coin-header {
     background-color: #FCA311;
 }
+
+.bg-color-navbar {
+    background-color: #14213D;
+}
+
+.bg-color-body {
+    background-color: #14213D;
+}
 /*---- NavBar ---*/
 
 .navbar {
@@ -52,19 +60,10 @@ body {
     color: #FCA311;
 }
 /*-------Jumbotron-------*/
-.jumbotron {
-    background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
-    height: 30vh;
-    opacity: .8;
-    background-size: cover;
-    background-position: center;
-    color: #fafafa;
-    border-radius: 0px!important;
-}
 
 .container-heading{
     font-family: 'Bebas Neue', cursive;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 
@@ -84,21 +83,31 @@ body {
 /*-------Coin picture-------*/
 
 .logo{
-   background: url("../images/Rcoin.jpg");
+   background: url("/images/headerpic.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 360px; 
+   min-height: 700px; 
+   
 }
-/*-------Coin Heading-------*/
+/*-------Coin Heading/jumbotron-------*/
+.jumbotron {
+    margin: 0;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    height: 700px;
+    border: block;
+}
+
 #coin-heading{
     margin: 0;
+    padding-top: 0px;
     min-height: 360px;
     height: 50vh;
 }
 
 #Coin-heading .container-heading {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .jumbotron2 .bg-color{
@@ -118,22 +127,6 @@ body {
 }
 /*-------Card heading-------*/
 
-.heading-card {
-    padding-top: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.heading-card h5 {
-    color: #14213D;
-    font-weight: bold;
-    font-size: 35px;
-}
-
-.heading-card p {
-    font-size: 18px;
-    color:  #FCA311;
-}
 
 /*-------- Card cloumn elements -----*/
 .card-columns {
