@@ -5,8 +5,6 @@ body {
 
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-   /* color: #FCA311; */
-    background-color:#14213D;
 }
 /*---- Colors ---*/
 .bg-color-name-title{
@@ -23,6 +21,9 @@ body {
 
 .bg-color-body {
     background-color: #14213D;
+}
+.bg-color-blockq{
+    color: #14213D;
 }
 /*---- NavBar ---*/
 
@@ -59,26 +60,7 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #FCA311;
 }
-/*-------Jumbotron-------*/
 
-.container-heading{
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 5px;
-}
-
-
-.container-heading h1 {
-    margin: 30px 0;
-    font-size: 50px;
-    font-weight: bold;
-    color:#14213D;
-}
-
-.container-heading p {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    color: #FCA311;
-}
 
 /*-------Coin picture-------*/
 
@@ -96,7 +78,6 @@ body {
     padding-top: 250px;
     padding-bottom: 250px;
     height: 700px;
-    border: block;
 }
 
 #coin-heading{
@@ -125,8 +106,15 @@ body {
 .coin--header h1 {
     font-weight: bold;
 }
-/*-------Card heading-------*/
+/*-------Rcoin Section-------*/
 
+#rcoin-section{
+
+}
+
+.bquote{
+    color: 
+}
 
 /*-------- Card cloumn elements -----*/
 .card-columns {
@@ -135,6 +123,7 @@ body {
     padding-left: 35px;
     padding-right: 35px;
     margin: 0;
+    display: inline-block;
 }
 
 .card-columns p {
