@@ -15,6 +15,9 @@ body {
     background-color: #FCA311;
 }
 
+.bg-color-qbox {
+    background-color: #FCA311;
+}
 .bg-color-navbar {
     background-color: #14213D;
 }
@@ -22,8 +25,8 @@ body {
 .bg-color-body {
     background-color: #14213D;
 }
-.bg-color-blockq{
-    color: #14213D;
+.bg-color-qbox-qheader{
+    color: #FCA311;
 }
 /*---- NavBar ---*/
 
@@ -103,17 +106,15 @@ body {
     color:#14213D;
 }
 
-.coin--header h1 {
+.coin-header h1 {
     font-weight: bold;
 }
 /*-------Rcoin Section-------*/
 
-#rcoin-section{
 
-}
 
-.bquote{
-    color: 
+ .qheader  {
+    color: #14213D; 
 }
 
 /*-------- Card cloumn elements -----*/
