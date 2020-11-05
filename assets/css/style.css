@@ -7,8 +7,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 /*---- Colors ---*/
-.bg-color-name-title{
-    background-color: #fafafa;
+.bg-color-introtitle-subquote{
+    background-color: #FCA311;
 }
 
 .bg-color-coin-header {
@@ -25,9 +25,7 @@ body {
 .bg-color-body {
     background-color: #14213D;
 }
-.bg-color-qbox-qheader{
-    color: #FCA311;
-}
+
 /*---- NavBar ---*/
 
 .navbar {
@@ -72,7 +70,7 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 700px; 
+   min-height: 500px; 
    
 }
 /*-------Coin Heading/jumbotron-------*/
@@ -80,7 +78,8 @@ body {
     margin: 0;
     padding-top: 250px;
     padding-bottom: 250px;
-    height: 700px;
+    height: 500px;
+    
 }
 
 #coin-heading{
@@ -99,24 +98,50 @@ body {
 }
 
 .coin-header {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
     padding-top: 75px;
     margin: 70px 0;
     font-size: 50px;
     color:#14213D;
 }
 
-.coin-header h1 {
+
+/*-------body header---------*/
+.title-section{
+    padding-top: 35px;
+}
+
+/*-------Home Header section -------*/
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 350px;
+  
+}
+
+.main-title{
+    margin: 0;
     font-weight: bold;
-}
-/*-------Rcoin Section-------*/
-
-
-
- .qheader  {
-    color: #14213D; 
+    font-size: 55px;
 }
 
+.main-sub-title{
+    margin: 0;
+    padding-right: 15px;
+}
+/*-------Rcoin + Adwheel Header section -------*/
+.img-fluid{
+    padding-top: 0px;
+    padding-bottom: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.rc-heading{
+    margin-left: 100px;
+}
 /*-------- Card cloumn elements -----*/
 .card-columns {
     padding-top: 25px;
@@ -140,43 +165,6 @@ body {
 
 .blockquote-footer {
     background-color: white;
-}
-
-/* --------Footer-------------- */
-
-footer {
-    color: #fafafa;
-    min-height: 100px;
-    margin: 0;
-    padding-bottom: 12px;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px; 
-    text-align: center;
-    color: #fafafa;
-    background: #14213D;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    color: #FCA311;
-}
-
-#footer-details {
-    padding: 10px;
 }
 
 
