@@ -170,17 +170,64 @@ header {
 
 /* ------------Media Queries----------------  */
 
-@media(min-width: 992px) {
-    .container-heading h1 {
-    margin: 15px 0;
-    font-size: 75px;
-    font-weight: bold;
-    color:#14213D;
+
+ @media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+    }
 }
 
-.container-heading p {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    color: #FCA311;
+/*---------MQ-mobile view---------*/
+
+@media(max-width: 600px) {
+.jumbotron {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 200px;
+    
 }
+.logo {
+    display: none;
 }
+ .card-columns{
+     max-width: 100%;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 25px;
+     padding-right: 25px;
+     margin: 0;
+     display: inline-block;
+ }
+
+.card-columns p {
+    color:  #FCA311;
+    font-size: 15px;
+}
+
+.card-columns h5 {
+    color: #14213D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.heading {
+    margin-left: 50px;
+  
+}
+
+.main-title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-sub-title{
+    margin: 0;
+    padding-right: 15px;
+}
+
+
