@@ -5,6 +5,7 @@ body {
 
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
 }
 /*---- Colors ---*/
 .bg-color-introtitle-subquote{
@@ -131,6 +132,13 @@ header {
 
 .rc-heading{
     margin-left: 100px;
+
+}
+
+#top-heading {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 15px;
 }
 /*-------- Card cloumn elements -----*/
 .card-columns {
@@ -172,15 +180,16 @@ header {
 
 @media(max-width: 600px) {
 .jumbotron {
-    margin: 0;
+    margin: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 200px;
     
 }
-.coin-header {
-    padding-top: 15px;
-}
+
 /*-------------Pictures----------------*/
 .logo {
     
@@ -201,6 +210,7 @@ header {
      padding-bottom: 15px;
      padding-left: 25px;
      padding-right: 25px;
+     margin-top: 25px;
      margin: 0;
      display: inline-block;
  }
