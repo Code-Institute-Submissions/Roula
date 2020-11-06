@@ -5,7 +5,8 @@ body {
 
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    padding-top: 15px;
+ 
+    
 }
 /*---- Colors ---*/
 .bg-color-introtitle-subquote{
@@ -31,30 +32,34 @@ body {
 
 .navbar {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 100;
     font-size: .9rem;
     letter-spacing: .1rem;
+   
+
 }
 
 .navbar-brand {
     
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
        
 }
 .navbar .navbar-brand:hover {
     color: #FCA311;
+    
 }
 
 .navbar-nav li {
     padding-right: .7rem;
 }
 .navbar .navbar-expand-lg {
-    color: #14213D;
+    padding-top: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #F1F1F1;
-    padding-top: .8rem;
+  
     
 }
 
@@ -113,9 +118,7 @@ body {
 }
 
 /*-------Home Header section -------*/
-header {
-    margin: 0;
-}
+
 .heading {
     margin: 0;
 }
