@@ -115,29 +115,19 @@ body {
 header {
     margin: 0;
 }
-
 .heading {
-    margin-left: 350px;
-  
+    margin: 0;
 }
-
 .main-title{
     margin: 0;
     font-weight: bold;
     font-size: 55px;
 }
-
 .main-sub-title{
     margin: 0;
-    padding-right: 15px;
+   
 }
 /*-------Rcoin + Adwheel Header section -------*/
-.img-fluid{
-    padding-top: 0px;
-    padding-bottom: 35px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
 
 .rc-heading{
     margin-left: 100px;
@@ -163,9 +153,7 @@ header {
     font-size: 25px;
 }
 
-.blockquote-footer {
-    background-color: white;
-}
+
 
 
 /* ------------Media Queries----------------  */
@@ -173,7 +161,7 @@ header {
 
  @media(min-width: 992px) {
     .center-form {
-    padding-top: 30px;
+    padding-top: 50px;
     min-height: 240px;
     margin: 0 auto;
     max-width: 50%;
@@ -190,9 +178,23 @@ header {
     height: 200px;
     
 }
-.logo {
-    display: none;
+.coin-header {
+    padding-top: 15px;
 }
+/*-------------Pictures----------------*/
+.logo {
+    
+   background: url("/images/headerpic.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 250px; 
+   padding-bottom: 30px;
+   
+}
+
+
+ /*--------Cards-------*/
  .card-columns{
      max-width: 100%;
      padding-top: 15px;
@@ -202,6 +204,7 @@ header {
      margin: 0;
      display: inline-block;
  }
+
 
 .card-columns p {
     color:  #FCA311;
@@ -215,8 +218,12 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin: 0;
   
+}
+
+header {
+    padding-bottom: 30px;
 }
 
 .main-title{
@@ -230,4 +237,4 @@ header {
     padding-right: 15px;
 }
 
-
+}
