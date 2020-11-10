@@ -35,6 +35,10 @@ body {
 .bg-color-cd {
     background-color: #FDFDFD;
 }
+
+.bg-color-rcoin-btn {
+    background-color: #14213D;
+}
 /*---- NavBar ---*/
 
 .navbar {
@@ -120,15 +124,19 @@ body {
 /*-------Card Deck---------*/
 .card-deck {
     padding-top: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
     padding-bottom: 25px;
+}
+
+.p-card {
+    padding-top: 25px;
 }
 
 
 /*-------body header---------*/
 .title-section{
-    padding-top: 35px;
+    padding-top: 75px;
 }
 
 /*-------Home Header section -------*/
