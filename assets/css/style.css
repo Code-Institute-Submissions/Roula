@@ -82,10 +82,7 @@ body {
 /*-------Coin picture-------*/
 
 .logo{
-   background: url("/images/headerpic.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  height: 50vh;
    min-height: 500px; 
    margin-top: 30px;
    
@@ -96,7 +93,7 @@ body {
     margin-top: 30px;
     padding-top: 250px;
     padding-bottom: 250px;
-    height: 500px;
+    height: 50vh;
     
 }
 
@@ -108,13 +105,8 @@ body {
     height: 50vh;
 }
 
-#Coin-heading .container-heading {
-    padding-top: 0px;
-}
 
-.jumbotron2 .bg-color{
-    color: #FCA311;
-}
+
 
 .coin-header {
     font-family: 'Roboto Slab', serif;
@@ -129,6 +121,8 @@ body {
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .p-card {
@@ -189,7 +183,7 @@ header{
 
 }
 
-#mid-heading  .main-title {
+.mid-heading  .main-title {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -198,7 +192,7 @@ header{
     transform: translate(-50%, -50%);
 }
 
-#top-heading {
+.top-heading {
     padding-top: 35px;
     padding-bottom: 35px;
     margin-top: 25px;
@@ -259,9 +253,7 @@ header{
 /*-------------Pictures----------------*/
 .logo {
     
-   background: url("/images/headerpic.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
+
    background-size: cover;
    min-height: 250px; 
    padding-bottom: 30px;
