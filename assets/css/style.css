@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
 
 body {
 
     
-    font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
  
     
 }
@@ -14,18 +13,18 @@ body {
 }
 
 .bg-color-coin-header {
-    background-color: #FCA311;
+    background-color: #b8b8b8;
 }
 
 .bg-color-qbox {
     background-color: #FCA311;
 }
 .bg-color-navbar {
-    background-color: #14213D;
+    background-color: #212121;
 }
 
 .bg-color-body {
-    background-color: #14213D;
+    background-color: #212121;
 }
 
 .bg-color-info {
@@ -52,7 +51,7 @@ body {
 
 .navbar-brand {
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
        
 }
@@ -69,8 +68,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #F1F1F1;
-  
+    color: #F1F1F1; 
     
 }
 
@@ -115,7 +113,7 @@ body {
 }
 
 .coin-header {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
     padding-top: 75px;
     margin: 70px 0;
     font-size: 50px;
@@ -159,6 +157,7 @@ body {
     position: relative;
     font-weight: bold;
     font-size: 55px;
+    color: #212121;
     
 }
 .heading .main-sub-title{
