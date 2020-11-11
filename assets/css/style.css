@@ -10,7 +10,7 @@ body {
 }
 /*---- Colors ---*/
 .bg-color-introtitle-subquote{
-    background-color: #b8b8b8;
+    background-color: #878787;
 }
 
 .bg-color-coin-header {
@@ -194,6 +194,12 @@ header{
 
 .top-heading {
     padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 25px;
+}
+
+.mid-heading {
+     padding-top: 35px;
     padding-bottom: 35px;
     margin-top: 25px;
 }
