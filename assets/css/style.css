@@ -9,7 +9,7 @@ body {
 }
 /*---- Colors ---*/
 .bg-color-introtitle-subquote{
-    background-color: #FCA311;
+    background-color: #b8b8b8;
 }
 
 .bg-color-coin-header {
@@ -32,7 +32,7 @@ body {
 }
 
 .bg-color-cd {
-    background-color: #FDFDFD;
+    background-color: #b8b8b8;
 }
 
 .bg-color-rcoin-btn {
@@ -197,24 +197,27 @@ body {
 /*-------- Card cloumn elements -----*/
 .card-columns {
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
     padding-left: 35px;
     padding-right: 35px;
     margin: 0;
-    display: inline-block;
+    margin-bottom: 12px;
+    
 }
 
 .card-columns p {
-    color:  #FCA311;
+    color:  #000000;
     font-size: 18px;
 }
 
 .card-columns h5 {
-    color: #14213D;
+    color: #000000;
     font-weight: bold;
     font-size: 25px;
 }
-
+ .card {
+     margin-bottom: 50px;
+ }
 
 
 
