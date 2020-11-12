@@ -3,7 +3,7 @@
 body {
 
     position: relative;
-    
+
    font-family: 'Roboto', sans-serif;
  
     
@@ -46,8 +46,6 @@ body {
     font-weight: 500;
     font-size: .9rem;
     letter-spacing: .1rem;
-   
-
 }
 
 .navbar-brand {
@@ -105,9 +103,6 @@ body {
     height: 50vh;
 }
 
-
-
-
 .coin-header {
     font-family: 'Roboto Slab', serif;
     padding-top: 75px;
@@ -129,6 +124,16 @@ body {
     padding-top: 25px;
 }
 
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
 
 /*-------body header---------*/
 .title-section{
@@ -159,9 +164,13 @@ header{
     margin: 0;
     position: relative;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 60px;
     color: #212121;
     
+}
+
+.subquote {
+    font-size: 25px;
 }
 .heading .main-sub-title{
     margin: 0;
@@ -183,7 +192,7 @@ header{
 
 }
 
-.mid-heading  .main-title {
+.mid-heading .main-title {
     margin: 0;
     position: absolute;
     top: 50%;
