@@ -253,10 +253,12 @@ header{
    background-size: cover;
    min-height: 250px; 
    padding-bottom: 30px;
-   
+   display: none;
 }
 
-
+.youtube-vid {
+    display: none;
+}
  /*--------Cards-------*/
  .card-columns{
      max-width: 100%;
