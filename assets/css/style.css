@@ -83,15 +83,17 @@ body {
   height: 50vh;
    min-height: 500px; 
    margin-top: 30px;
+   margin: 0;
+   
    
 }
 /*-------Coin Heading/jumbotron-------*/
 .jumbotron {
     margin: 0;
-    margin-top: 30px;
     padding-top: 250px;
     padding-bottom: 250px;
     height: 50vh;
+    min-height: 500px;
     
 }
 
@@ -144,6 +146,7 @@ body {
 
 header{
     margin-bottom: 0;
+    
 }
 
 .heading {
@@ -220,7 +223,7 @@ header{
 
 
 
-/* ------------Media Queries----------------  */
+/* ------------MQ Desktop only----------------  */
 
 
  @media(min-width: 992px) {
@@ -230,58 +233,56 @@ header{
     margin: 0 auto;
     max-width: 50%;
     }
+    .home-c-2 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .home-c-3 {
+        padding-top: 100px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+  
+    .logo2 {
+        display: none
+    }
 }
 
 /*---------MQ-mobile view---------*/
 
 @media(max-width: 600px) {
+.logo{
+    display: none;
+}
+ .logo2 {
+    background-size: cover;
+    min-height: 250px;
+    min-width: 250px;
+    margin-top: 30px;
+  
+}
 .jumbotron {
-    margin: 25px;
+    margin: 0px;
+    margin-top: 10px;
     margin-right: 0px;
     margin-left: 0px;
-    margin-bottom: 25px;
-    padding-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
     padding-bottom: 50px;
-    height: 200px;
+    min-height: 150px;
+    display: none;
     
 }
 
-/*-------------Pictures----------------*/
-.logo {
-    
+ 
+/*-------------Pictures/Content----------------*/
 
-   background-size: cover;
-   min-height: 250px; 
-   padding-bottom: 30px;
-   
-}
 
 .youtube-vid {
     display: none;
 }
  /*--------Cards-------*/
- .card-columns{
-     max-width: 100%;
-     padding-top: 15px;
-     padding-bottom: 15px;
-     padding-left: 5px;
-     padding-right: 5px;
-     margin-top: 25px;
-     margin: 0;
-     display: inline-block;
- }
 
-
-.card-columns p {
-    color:  #FCA311;
-    font-size: 15px;
-}
-
-.card-columns h5 {
-    color: #14213D;
-    font-weight: bold;
-    font-size: 20px;
-}
 .card-deck h5 {
     font-size: 20px;
     font-weight: bold;
@@ -291,15 +292,13 @@ header{
     font-size: 15px;
 
 }
+ /*--------Header-------*/
+
 .heading {
     margin: 0;
   
 }
 
-header {
-    margin-top: 15px;
-    padding-bottom: 10px;
-}
 
 .main-title{
     margin: 0;
