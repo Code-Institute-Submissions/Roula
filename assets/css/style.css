@@ -253,7 +253,7 @@ header{
    background-size: cover;
    min-height: 250px; 
    padding-bottom: 30px;
-   display: none;
+   
 }
 
 .youtube-vid {
@@ -282,20 +282,41 @@ header{
     font-weight: bold;
     font-size: 20px;
 }
+.card-deck h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.card-deck p{
+    font-size: 15px;
+
+}
 .heading {
     margin: 0;
   
 }
 
 header {
-    padding-bottom: 30px;
+    margin-top: 15px;
+    padding-bottom: 10px;
 }
 
 .main-title{
     margin: 0;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.introtitle {
+    font-size: 35px;
+}
+
+.title-jumbo {
+    margin-top: 50px;
+}
+
+.coin-header {
+    margin-top: 45px;
 }
 
 .main-sub-title{
