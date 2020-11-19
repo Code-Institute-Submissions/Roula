@@ -139,24 +139,27 @@ header {
 
 .heading {
     height: 0em;
+    padding: 0;
     position: relative;
-    margin-bottom: 25px;
+    margin-top: 1px;
+
 }
 
 .heading .main-title {
-    margin: 0;
+    
     position: absolute;
-    top: 50%;
+    
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 .main-title {
     margin: 0;
-    position: relative;
+    position: absolute;
     font-weight: bold;
     font-size: 50px;
     color: #212121;
+    margin-top: 15px;
 }
 
 .subquote {
@@ -165,11 +168,11 @@ header {
 .heading .main-sub-title {
     margin: 0;
     position: absolute;
-    top: 50%;
+    
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    padding-top: 85px;
+    padding-top: 150px;
 }
 
 /*-------Rcoin + Adwheel Header section -------*/
