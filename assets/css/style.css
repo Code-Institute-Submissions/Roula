@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap");
 
 body {
-
     position: relative;
 
-   font-family: 'Roboto', sans-serif;
- 
-    
+    font-family: "Roboto", sans-serif;
 }
 /*---- Colors ---*/
-.bg-color-introtitle-subquote{
+.bg-color-introtitle-subquote {
     background-color: #878787;
 }
 
 .bg-color-coin-header {
     background-color: #b8b8b8;
 }
-
 
 .bg-color-navbar {
     background-color: #212121;
@@ -26,58 +22,52 @@ body {
     background-color: #212121;
 }
 
-
 .bg-color-cd {
     background-color: #b8b8b8;
 }
 
 .bg-color-rcoin-btn {
-    background-color: #14213D;
+    background-color: #14213d;
 }
 /*---- NavBar ---*/
 
 .navbar {
     text-transform: uppercase;
     font-weight: 500;
-    font-size: .9rem;
-    letter-spacing: .1rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
 }
 
 .navbar-brand {
-    
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-weight: bold;
-       
 }
 .navbar .navbar-brand:hover {
-    color: #FCA311;
-    
+    color: #fca311;
 }
 
 .navbar-nav li {
-    padding-right: .7rem;
+    padding-right: 0.7rem;
 }
 .navbar .navbar-expand-lg {
     padding-top: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #F1F1F1; 
-    
+    color: #f1f1f1;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #FCA311;
+    color: #fca311;
 }
-
 
 /*------- picture/video-------*/
 
-.logo{
-  height: 50vh;
-   min-height: 500px; 
-   margin: 0;
+.logo {
+    height: 50vh;
+    min-height: 500px;
+    margin: 0;
 }
 .youtube-vid {
     border: none;
@@ -91,10 +81,9 @@ body {
     padding-bottom: 250px;
     height: 50vh;
     min-height: 500px;
-    
 }
 
-#coin-heading{
+#coin-heading {
     margin: 0;
     margin-top: 20px;
     padding-top: 0px;
@@ -103,11 +92,11 @@ body {
 }
 
 .coin-header {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     padding-top: 75px;
     margin: 70px 0;
     font-size: 50px;
-    color:#14213D;
+    color: #14213d;
 }
 /*-------Card Deck---------*/
 .card-deck {
@@ -124,13 +113,13 @@ body {
 }
 
 .card-title {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-weight: bold;
     font-size: 25px;
 }
 
 .card-text {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     padding-right: 25px;
     padding-left: 25px;
@@ -138,15 +127,14 @@ body {
 }
 
 /*-------body header---------*/
-.title-section{
+.title-section {
     padding-top: 75px;
 }
 
 /*-------Home Header section -------*/
 
-header{
+header {
     margin-top: 50px;
-    
 }
 
 .heading {
@@ -163,19 +151,18 @@ header{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-.main-title{
+.main-title {
     margin: 0;
     position: relative;
     font-weight: bold;
     font-size: 50px;
     color: #212121;
-    
 }
 
 .subquote {
     font-size: 25px;
 }
-.heading .main-sub-title{
+.heading .main-sub-title {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -185,14 +172,12 @@ header{
     padding-top: 85px;
 }
 
-
 /*-------Rcoin + Adwheel Header section -------*/
 
-.rc-heading{
+.rc-heading {
     margin: 0;
     margin-left: 100px;
     position: relative;
-
 }
 
 .mid-heading .main-title {
@@ -217,9 +202,9 @@ header{
 }
 /*-------- Card cloumn elements -----*/
 
- .card {
-     margin-bottom: 50px;
- }
+.card {
+    margin-bottom: 50px;
+}
 
 /*-------- Footer -----*/
 footer {
@@ -254,7 +239,7 @@ footer {
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
-    line-height: 7px; 
+    line-height: 7px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -273,127 +258,116 @@ footer {
 }
 /* ------------MQ Desktop only----------------  */
 
-
- @media(min-width: 992px) {
+@media (min-width: 992px) {
     .center-form {
-    padding-top: 50px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
+        padding-top: 50px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
-   
+
     .logo2 {
-        display: none
+        display: none;
     }
 }
 
 /*---------MQ-mobile view---------*/
 
-@media(max-width: 600px) {
-.logo{
-    height: 250px;
-    margin-bottom: 0;
-}
+@media (max-width: 600px) {
+    .logo {
+        height: 250px;
+        margin-bottom: 0;
+    }
 
-.jumbotron-fluid {
-    background-image: url("/assets/images/jumbotronPicture.jpg");
-    background-size: cover;
-    margin: 0;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    height: 50vh;
-    min-height: 500px;
-    
-}
+    .jumbotron-fluid {
+        background-image: url("/assets/images/jumbotronPicture.jpg");
+        background-size: cover;
+        margin: 0;
+        padding-top: 250px;
+        padding-bottom: 250px;
+        height: 50vh;
+        min-height: 500px;
+    }
 
-/*-------------Pictures/Content----------------*/
+    /*-------------Pictures/Content----------------*/
 
+    .youtube-vid {
+        display: none;
+    }
+    /*--------Cards-------*/
 
-.youtube-vid {
-    display: none;
-}
- /*--------Cards-------*/
+    .card-deck h5 {
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-.card-deck h5 {
-    font-size: 20px;
-    font-weight: bold;
-}
+    .card-deck p {
+        font-size: 15px;
+    }
+    /*--------Header-------*/
 
-.card-deck p{
-    font-size: 15px;
+    .heading {
+        margin: 0;
+    }
 
-}
- /*--------Header-------*/
+    .rc-heading {
+        position: relative;
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
-.heading {
-    margin: 0;
-  
-}
+    .main-title {
+        margin: 0;
+        font-weight: bold;
+        font-size: 35px;
+    }
 
-.rc-heading {
-    position: relative;
-    margin: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+    .introtitle {
+        font-size: 35px;
+        text-align: center;
+    }
+    .subquote {
+        text-align: center;
+        font-size: 20px;
+    }
 
-.main-title{
-    margin: 0;
-    font-weight: bold;
-    font-size: 35px;
-}
+    .card-title {
+        font-family: "Roboto Slab", serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
 
-.introtitle {
-    font-size: 35px;
-    text-align: center;
-}
-.subquote {
-    text-align: center;
-    font-size: 20px;
-}
+    .card-text {
+        padding-right: 5px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
 
-.card-title {
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    font-size: 25px;
-}
+    .card-deck {
+        margin-bottom: 10px;
+        padding: 0;
+    }
 
-.card-text {
-    
-    padding-right: 5px;
-    padding-left: 0px;
-    padding-top: 0px;
-}
-
-.card-deck {
-    margin-bottom: 10px;
-    padding: 0;
-}
-
-
-.main-sub-title{
-    margin: 0;
-    padding-right: 15px;
-}
-
+    .main-sub-title {
+        margin: 0;
+        padding-right: 15px;
+    }
 }
 
 /*---------MQ-tablet view---------*/
 
- @media (min-width: 600px) {
-     .youtube-vid {
-         display:none;
-     }
+@media (min-width: 600px) {
+    .youtube-vid {
+        display: none;
+    }
 
-     .logo {
-         width: 350px;
-     }
+    .logo {
+        width: 350px;
+    }
 
-     .card-deck {
-    margin-bottom: 10px;
-    padding: 0;
+    .card-deck {
+        margin-bottom: 10px;
+        padding: 0;
+    }
 }
-
- }
-
-
