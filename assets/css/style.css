@@ -77,15 +77,15 @@ body {
 }
 
 
-/*-------Coin picture-------*/
+/*------- picture/video-------*/
 
 .logo{
   height: 50vh;
    min-height: 500px; 
    margin: 0;
-
-   
-   
+}
+.youtube-vid {
+    border: none;
 }
 /*-------Coin Heading/jumbotron-------*/
 .jumbotron {
