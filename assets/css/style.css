@@ -319,13 +319,23 @@ header{
 }
 
 
-
-
-
-
 .main-sub-title{
     margin: 0;
     padding-right: 15px;
 }
 
 }
+
+/*---------MQ-tablet view---------*/
+
+ @media (min-width: 600px) {
+     .youtube-vid {
+         display:none;
+     }
+
+     .logo {
+         width: 350px;
+     }
+ }
+
+
