@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap");
 
+
 body {
     
     font-family: "Roboto", sans-serif;
@@ -80,7 +81,7 @@ body {
     border: none;
 }
 /*-------Coin Heading/jumbotron-------*/
-.jumbotron-fluid {
+ .jumbotron-fluid {
     background-image: url("https://github.com/nickl98/Roula/blob/master/assets/images/jumbo-pic.jpg?raw=true");
     background-size: cover;
     margin: 0;
