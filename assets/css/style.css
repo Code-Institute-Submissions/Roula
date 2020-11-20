@@ -306,7 +306,17 @@ footer {
 
 
     /*-------------Pictures/Content----------------*/
-
+.jumbotron-fluid .main-title {
+  position: absolute;
+  left: 50%!important;
+  z-index: 5;
+  color: #212121;
+  text-align: center;
+  top: 15%!important;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  padding: 20px
+  }
     .youtube-vid {
         display: none;
     }
@@ -337,8 +347,8 @@ footer {
     .main-title {
         margin: 0;
         font-weight: bold;
-        font-size: 30px;
-        margin-bottom: 10px;
+        font-size: 25px;
+        margin-bottom: 25px;
     }
 .rc-heading .mid-title {
     font-weight: bold;
