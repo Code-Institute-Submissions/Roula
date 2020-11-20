@@ -81,7 +81,7 @@ body {
 }
 /*-------Coin Heading/jumbotron-------*/
 .jumbotron-fluid {
-    background-image: url("/assets/images/jumbotronPicture.jpg");
+    background-image: url("/assets/images/jumbo-pic.jpg");
     background-size: cover;
     margin: 0;
     padding-top: 250px;
@@ -303,7 +303,7 @@ footer {
 @media (max-width: 600px) {
     
     .jumbotron-fluid {
-        background-image: url("/assets/images/jumbotronPicture1.jpg");
+        background-image: url("/assets/images/jumbo-pic.jpg");
         background-size: cover;
         margin: 0;
         padding-top: 250px;
