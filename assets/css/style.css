@@ -312,10 +312,10 @@ footer {
   z-index: 5;
   color: #212121;
   text-align: center;
-  top: 15%!important;
+  top: 10%!important;
   transform: translate(-50%, -50%);
   width: fit-content;
-  padding: 20px
+  
   }
     .youtube-vid {
         display: none;
