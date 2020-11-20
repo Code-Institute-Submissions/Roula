@@ -81,7 +81,7 @@ body {
 }
 /*-------Coin Heading/jumbotron-------*/
 .jumbotron-fluid {
-    background-image: url("/assets/images/jumbo-pic.jpg");
+    background-image: url("https://github.com/nickl98/Roula/blob/master/assets/images/jumbo-pic.jpg?raw=true");
     background-size: cover;
     margin: 0;
     padding-top: 250px;
