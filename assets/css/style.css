@@ -7,7 +7,7 @@ body {
 }
 /*---- Colors ---*/
 .bg-color-introtitle-subquote {
-    background-color: #878787;
+    background-color: #c37400;
 }
 
 .bg-color-coin-header {
@@ -23,7 +23,7 @@ body {
 }
 
 .bg-color-cd {
-    background-color: #b8b8b8;
+    background-color: #212121;
 }
 
 .bg-color-rcoin-btn {
@@ -116,6 +116,7 @@ body {
     font-family: "Roboto Slab", serif;
     font-weight: bold;
     font-size: 25px;
+    color: #c37400;
 }
 
 .card-text {
@@ -124,6 +125,11 @@ body {
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 20px;
+    color: #fafafa;
+}
+
+.card-text dd, dl, li, ul, i {
+    color: #fafafa;
 }
 
 /*-------body header---------*/
@@ -211,25 +217,10 @@ header {
 
 /*-------- Footer -----*/
 footer {
-    background-color: #525252;
+    background-color: #b8b8b8;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-}
-
-.cv-pdf i {
-    font-size: 19px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
 }
 
 .social-links {
@@ -253,7 +244,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: #e84610;
+    color: #c37400;
 }
 
 #footer-details {
@@ -360,10 +351,7 @@ footer {
 
 /*---------MQ-tablet view---------*/
 
-@media (min-width: 600px) {
-    .youtube-vid {
-        display: none;
-    }
+
 
     .logo {
         width: 350px;
