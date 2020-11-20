@@ -302,15 +302,7 @@ footer {
 
 @media (max-width: 600px) {
     
-    .jumbotron-fluid {
-        background-image: url("/assets/images/jumbo-pic.jpg");
-        background-size: cover;
-        margin: 0;
-        padding-top: 250px;
-        padding-bottom: 250px;
-        height: 50vh;
-        min-height: 500px;
-    }
+
 
     /*-------------Pictures/Content----------------*/
 
