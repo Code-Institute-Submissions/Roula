@@ -90,13 +90,17 @@ body {
     min-height: 500px;
 }
 
-#coin-heading {
-    margin: 0;
-    margin-top: 20px;
-    padding-top: 0px;
-    min-height: 360px;
-    height: 50vh;
-}
+.jumbotron-fluid .main-title {
+  position: absolute;
+  left: 50%!important;
+  z-index: 5;
+  color: #212121;
+  text-align: center;
+  top: 15%!important;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  padding: 50px
+  }
 
 .coin-header {
     font-family: "Roboto Slab", serif;
@@ -329,13 +333,30 @@ footer {
         margin: 0;
         margin-left: 20px;
         margin-right: 20px;
+        text-align: center;
     }
 
     .main-title {
         margin: 0;
         font-weight: bold;
-        font-size: 35px;
+        font-size: 25px;
     }
+.rc-heading .mid-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.rc-heading .mid-sub i {
+    color: #212121;
+}
+
+.rc-heading .mid-sub{
+    font-size: 20px;
+}
+.rc-heading .introtitle {
+    font-weight: bold;
+    font-size: 35px;
+}
 
     .introtitle {
         font-size: 35px;
