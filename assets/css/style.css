@@ -102,6 +102,10 @@ body {
   padding: 50px
   }
 
+.jumbotron-fluid .main-title i {
+    color: #212121;
+}
+
 .coin-header {
     font-family: "Roboto Slab", serif;
     padding-top: 75px;
@@ -167,7 +171,7 @@ header {
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-.main-title {
+.main-title  {
     margin: 0;
     position: absolute;
     font-weight: bold;
@@ -175,6 +179,7 @@ header {
     color: #212121;
     margin-top: 15px;
 }
+
 
 .subquote {
     font-size: 25px;
@@ -339,7 +344,8 @@ footer {
     .main-title {
         margin: 0;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 30px;
+        margin-bottom: 10px;
     }
 .rc-heading .mid-title {
     font-weight: bold;
